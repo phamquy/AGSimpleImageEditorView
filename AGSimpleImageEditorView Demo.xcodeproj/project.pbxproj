@@ -313,12 +313,13 @@
 		FE7C6F0D14FD2213005921A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jack Pham (T7J3EFNHCL)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AGSimpleImageEditorView Demo/AGSimpleImageEditorView Demo-Prefix.pch";
 				INFOPLIST_FILE = "AGSimpleImageEditorView Demo/AGSimpleImageEditorView Demo-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "0AE5AD77-62B0-4279-A3F6-99A8AED14D14";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
